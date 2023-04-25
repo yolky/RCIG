@@ -1,0 +1,32 @@
+{
+    "has_bn": false,
+    "pool_model_count": 30,
+    "l2_rate": 0.05,
+    "n_inner_steps": 20,
+    "max_online_steps": 100,
+    "linearize": true,
+    "aug": null,
+    "test_aug": "flip_color_crop_rotate_translate_cutout",
+    "n_max_steps_pool": 16,
+    "n_hinv_steps": 20,
+    "learn_labels": true,
+    "monitor_losses": false,
+    "pool_learning_rate": 0.00005,
+    "proto_learning_rate": 0.003,
+    "img_size": 128,
+    "aug_repeats": 0,
+    "normal_repeats": 1,
+    "softplus_temp": 0,
+    "direct_batch_sizes": [
+        null,
+        256
+    ],
+    "implicit_batch_size": null,
+    "hinv_batch_size": null,
+    "inner_train_batch_size": null,
+    "pool_train_batch_size": null,
+    "max_forward_batch_size": 256,
+    "do_precompute": true,
+    "use_flip": true,
+    "checkpoint_iters": [5, 10, 20, 30, 40, 50, 75, 100, 125, 150, 175, 200, 250, 300, 350, 400, 500, 600, 700, 800, 900, 1000, 1250, 1500, 1750, 2000, 2500, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 15000]
+}

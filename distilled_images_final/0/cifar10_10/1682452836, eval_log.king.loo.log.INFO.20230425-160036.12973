@@ -1,0 +1,77 @@
+I0425 16:00:36.248642 140424034193408 eval.py:121] 
+
+
+eval_log
+
+
+
+I0425 16:00:36.250320 140424034193408 dataset_info.py:540] Load dataset info from data/tensorflow_datasets/cifar10/3.0.2
+I0425 16:00:36.252979 140424034193408 dataset_builder.py:421] Reusing dataset cifar10 (data/tensorflow_datasets/cifar10/3.0.2)
+I0425 16:00:36.253133 140424034193408 dataloader.py:142] Load from data/zca/cifar10_normalize_zca.npz!
+I0425 16:00:36.408160 140424034193408 logging_logger.py:49] Constructing tf.data.Dataset cifar10 for split ['train', 'test'], from data/tensorflow_datasets/cifar10/3.0.2
+I0425 16:00:36.408777 140424034193408 ops.py:328] Dataset size: 50000
+W0425 16:00:36.431611 140424034193408 deprecation.py:350] From /home/loo/.local/lib/python3.10/site-packages/tensorflow/python/autograph/pyct/static_analysis/liveness.py:83: Analyzer.lamba_check (from tensorflow.python.autograph.pyct.static_analysis.liveness) is deprecated and will be removed after 2023-09-23.
+Instructions for updating:
+Lambda fuctions will be no more assumed to be used in the statement where they are used, or at least in the same block. https://github.com/tensorflow/tensorflow/issues/56089
+I0425 16:00:38.823812 140424034193408 ops.py:328] Dataset size: 10000
+I0425 16:00:39.943485 140424034193408 dataloader.py:184] Resolution: 32
+I0425 16:00:39.944257 140424034193408 dataloader.py:185] Proto Scale: {'x_proto': Array(55.425625, dtype=float32, weak_type=True)}
+I0425 16:00:40.054000 140424034193408 checkpoints.py:889] Restoring legacy Flax checkpoint from distilled_images_final/0/cifar10_10/checkpoint_10000
+I0425 16:00:40.066619 140424034193408 eval.py:178] loading config from ./configs_final/depth_3.txt
+I0425 16:00:40.068694 140424034193408 eval.py:184] aug: null
+aug_repeats: 0
+checkpoint_iters:
+- 5
+- 10
+- 20
+- 30
+- 40
+- 50
+- 100
+- 200
+- 300
+- 400
+- 500
+- 750
+- 1000
+- 1250
+- 1500
+- 2000
+- 2500
+- 3000
+- 4000
+- 5000
+- 6000
+- 7000
+- 8000
+- 9000
+- 10000
+- 15000
+direct_batch_sizes: !!python/tuple
+- null
+- null
+do_precompute: false
+has_bn: false
+hinv_batch_size: null
+img_size: 32
+implicit_batch_size: null
+inner_train_batch_size: null
+l2_rate: 0.0005
+learn_labels: true
+linearize: true
+max_forward_batch_size: null
+max_online_steps: 100
+monitor_losses: false
+n_hinv_steps: 20
+n_inner_steps: 20
+n_max_steps_pool: 16
+normal_repeats: 1
+pool_learning_rate: 5.0e-05
+pool_model_count: 30
+pool_train_batch_size: null
+proto_learning_rate: 0.003
+softplus_temp: 60
+test_aug: flip_color_crop_rotate_translate_cutout
+use_flip: true
+
+I0425 16:00:40.419723 140424034193408 eval.py:217] no data augmentation
