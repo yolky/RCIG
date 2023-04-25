@@ -1,5 +1,5 @@
 # Dataset Distillation with Convexified Implicit Gradients
-Code for the paper ["Dataset Distillation with Convexified Implicit Gradients"](https://arxiv.org/abs/2302.06755)
+Code for the ICML 2023 paper ["Dataset Distillation with Convexified Implicit Gradients"](https://arxiv.org/abs/2302.06755)
 
 Contact: [Noel Loo](loo@mit.edu)
 
